@@ -8,7 +8,7 @@ public class Onlineshopping {
             System.out.print("payable amount="+ amount*0.20);
         }
         else if(amount>=2000 && amount<=5000){
-            System.out.print("payable amount="+amount*0.10);
+            System.out.print("payable amount="+ amount*0.10);
         }
         else{
             System.out.print("No Discount");
