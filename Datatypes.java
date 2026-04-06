@@ -1,9 +1,9 @@
 public class Datatypes {
     public static void main(String[]args){
         
-        short b=20;
+        short b=2;
          int a=b;
-         double va=24.2;
+         double va=24;
          int val=(int)va;
         String s="saran";
         char v='w';
