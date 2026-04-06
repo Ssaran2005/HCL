@@ -11,7 +11,7 @@ public class Onlineshopping {
             System.out.print("payable amount="+amount*0.10);
         }
         else{
-            System.out.print("No Discount");
+            System.out.print("No Disount");
         }
     }
 }
