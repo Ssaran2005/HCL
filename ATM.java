@@ -7,7 +7,7 @@ class ATMS {
         this.balance = balance;
     }
 
-
+                     
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
@@ -39,7 +39,7 @@ class ATM {
 
         user.deposit(2000);
         user.withdraw(1500);
-
+                         
         System.out.println("Current Balance: " + user.getBalance());
     }
 }
