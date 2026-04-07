@@ -29,4 +29,4 @@ class encap {
         System.out.println("Name: " + s.getName());
         System.out.println("Age: " + s.getAge());
     }
-}
+} 
