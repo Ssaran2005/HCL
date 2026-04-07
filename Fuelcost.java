@@ -5,6 +5,6 @@ public class Fuelcost {
         int distance=sc.nextInt();
         int mileage=sc.nextInt();
         int fuelprice=sc.nextInt();
-        System.out.print((fuelprice/mileage)*50);
+        System.out.print((fuelprice/mileage)*distance);
     }
 }
