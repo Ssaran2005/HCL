@@ -1,4 +1,3 @@
-// Base class
 class Employee {
     String name;
     double salary;
@@ -7,7 +6,6 @@ class Employee {
         this.name = name;
     }
 
-    // Method to calculate salary (to be overridden)
     void calculateSalary() {
         System.out.println("Calculating salary...");
     }
@@ -44,7 +42,7 @@ class ContractEmployee extends Employee {
     }
 }
 
-// Main class
+
 class company {
     public static void main(String[] args) {
         Employee e1 = new PermanentEmployee("Saran");
